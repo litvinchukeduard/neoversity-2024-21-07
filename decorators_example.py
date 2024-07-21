@@ -79,8 +79,11 @@ my_dict = {'str_one': 'Hello', 'str_two': 'world'}
 
 @time_function
 def my_function(*args, **kwargs):
+    """My awesome function"""
     pass
 
 # {**user, ‘birthdate’: birthdate}
 
 print(my_function.__name__)
+print(dir(my_function))
+print(my_function.__doc__)
